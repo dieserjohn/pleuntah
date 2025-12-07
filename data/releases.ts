@@ -22,6 +22,7 @@ export const RELEASES: Release[] = [
         type: 'album',
         year: 2024,
         highlightTracks: ["C'est la vie", "Scheitern", "Luxusprobleme"],
+        coverImage: '/covers/suizid.jpg', // Placeholder (reusing Suizid style or generic)
         links: {
             spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g",
         },
@@ -32,6 +33,7 @@ export const RELEASES: Release[] = [
         title: 'PNTH.',
         type: 'ep',
         year: 2022,
+        coverImage: '/covers/hass.jpg', // Placeholder
         links: {
             spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g",
         },
@@ -41,6 +43,7 @@ export const RELEASES: Release[] = [
         title: 'justin',
         type: 'ep',
         year: 2021,
+        coverImage: '/covers/introvertiert.jpg', // Placeholder
         links: {
             spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g",
         },
@@ -50,6 +53,7 @@ export const RELEASES: Release[] = [
         title: 'Der Beste',
         type: 'ep',
         year: 2020,
+        coverImage: '/covers/suizid.jpg', // Placeholder
         links: {
             spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g",
         },
@@ -60,6 +64,7 @@ export const RELEASES: Release[] = [
         title: 'Halloween Forever',
         type: 'single',
         year: 2025,
+        coverImage: '/covers/halloween-forever.jpg',
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -67,6 +72,7 @@ export const RELEASES: Release[] = [
         title: 'Freiheit',
         type: 'single',
         year: 2025,
+        coverImage: '/covers/suizid.jpg', // Placeholder
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -74,6 +80,15 @@ export const RELEASES: Release[] = [
         title: 'Luxusprobleme',
         type: 'single',
         year: 2024,
+        coverImage: '/covers/suizid.jpg', // Placeholder
+        links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
+    },
+    {
+        id: 'halloween-party',
+        title: 'Halloween Party',
+        type: 'single',
+        year: 2024,
+        coverImage: '/covers/halloween-party.jpg',
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -81,6 +96,7 @@ export const RELEASES: Release[] = [
         title: 'Halloween 3',
         type: 'single',
         year: 2024,
+        coverImage: '/covers/halloween-forever.jpg', // Placeholder
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -88,6 +104,7 @@ export const RELEASES: Release[] = [
         title: "C'est la vie",
         type: 'single',
         year: 2023,
+        coverImage: '/covers/suizid.jpg', // Placeholder
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -95,6 +112,7 @@ export const RELEASES: Release[] = [
         title: 'Trennung',
         type: 'single',
         year: 2022,
+        coverImage: '/covers/hass.jpg', // Placeholder
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -102,6 +120,7 @@ export const RELEASES: Release[] = [
         title: 'Marketingtrick',
         type: 'single',
         year: 2022,
+        coverImage: '/covers/hass.jpg', // Placeholder
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -109,6 +128,7 @@ export const RELEASES: Release[] = [
         title: 'Wie Gott mich bestraft',
         type: 'single',
         year: 2021,
+        coverImage: '/covers/introvertiert.jpg', // Placeholder
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -116,6 +136,7 @@ export const RELEASES: Release[] = [
         title: 'INTROVERTIERT UND ARROGANT',
         type: 'single',
         year: 2020,
+        coverImage: '/covers/introvertiert.jpg',
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
     {
@@ -123,6 +144,15 @@ export const RELEASES: Release[] = [
         title: 'Suizid',
         type: 'single',
         year: 2020, // Estimated
+        coverImage: '/covers/suizid.jpg',
+        links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
+    },
+    {
+        id: 'hass',
+        title: 'Hass',
+        type: 'single',
+        year: 2020,
+        coverImage: '/covers/hass.jpg',
         links: { spotify: "https://open.spotify.com/artist/1clS0Ijkk1t2nJ370axf0g" },
     },
 ];
